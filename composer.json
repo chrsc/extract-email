@@ -1,0 +1,28 @@
+{
+    "name": "chrsc/extract-email",
+    "description": "Extract email addresses from a url",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Chris Callender",
+            "email": "chrsc@mac.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Chrsc\\ExtractEmail\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Chrsc\\ExtractEmail\\Tests\\": "tests"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.5"
+    }
+}
